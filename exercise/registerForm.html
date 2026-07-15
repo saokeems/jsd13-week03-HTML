@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Register Form</h1>
+    <form action="" method="get">
+      <label>
+        Username :
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="ใส่ชื่อผู้ใช้"
+          required
+        />
+      </label>
+      <br />
+      <br />
+
+      <label>
+        Password :
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="ใส่รหัสผ่าน"
+          required
+        />
+      </label>
+      <br />
+      <br />
+
+      <label>
+        Email :
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@email.com"
+          required
+        />
+      </label>
+
+      <p>เลือก Package :</p>
+      <label>
+        Free
+        <input type="radio" name="package" id="free" value="free" checked />
+      </label>
+      <label>
+        Premium
+        <input type="radio" name="package" id="premium" value="Premium" />
+      </label>
+      <p>เลือกความสนใจ :</p>
+      <label
+        >ดูหนัง
+        <input type="checkbox" name="interest" id="movie" value="movie" />
+      </label>
+      <label>
+        ฟังเพลง
+        <input type="checkbox" name="interest" id="music" value="music" />
+      </label>
+      <label>
+        เล่นเกม
+        <input type="checkbox" name="interest" id="game" value="game" />
+      </label>
+      <br />
+      <button type="submit">ยืนยันการสมัคร</button>
+    </form>
+  </body>
+</html>
